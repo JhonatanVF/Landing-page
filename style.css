@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: sora, sanserif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(102, 77, 77);
+    width: 85%;
+    height: 5000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primeiro {
+    text-align: center;
+    width: 85%;
+    margin-top: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.solido{
+    width: 80px;
+    margin-bottom: 35px;
+}
+
+.primeiro-para{
+    width: 70%;
+}
+
+.afasto{
+    margin-bottom: 35px;
+}
+
+.button{
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    width: 100px;
+    display: block;
+    margin-bottom: 25px;
+}
