@@ -6,8 +6,12 @@
     padding: 0;
 }
 
+body{
+    color: white;
+    background-image: linear-gradient(to top right ,#431F54,#151226 60%,#17254A);
+}
+
 .container {
-    background-color: rgb(102, 77, 77);
     width: 85%;
     height: 5000px;
     margin: auto;
@@ -20,15 +24,19 @@
     text-align: center;
     width: 85%;
     margin-top: 100px;
-    background-color: red;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .solido{
+    margin-top: 25px;
     width: 80px;
     margin-bottom: 35px;
+}
+
+.primeiro-texto{
+    font-size: 50px;
 }
 
 .primeiro-para{
@@ -40,13 +48,54 @@
 }
 
 .button{
-    margin: auto;
-    border: 1px solid black;
+    border: 1px solid #5F476B;
     border-radius: 50px;
     text-decoration: none;
     color: white;
-    padding: 15px;
+    padding: 20px;
     width: 100px;
     display: block;
     margin-bottom: 25px;
+}
+
+.blocos{
+    text-align: center;
+    width: 85%;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #5F476B;
+    border-radius: 50px;
+}
+
+.esquerda{
+    width: 300px;
+    margin-left: 70px;
+}
+
+.direita{
+    width: 300px;
+    margin-right: 70px;
+    order: 1;
+}
+
+.texto{
+    text-align:start;
+    margin-left: 55px;
+}
+
+.titulo{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.paragrafo{
+    margin-bottom: 40px;
+    width: 450px;
+}
+
+.ajuste{
+    margin-left: 15px;
+    margin-right: 70px;
 }
